@@ -1,0 +1,2266 @@
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'MontB';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'MontEB';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'MontL';
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: 'RobB';
+    src: url(../fonts/Roboto-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: 'RobL';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'RobM';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montb{
+    font-family: 'MontB';
+}
+
+.monteb{
+    font-family: 'MontEB';
+
+}
+
+.montl{
+    font-family: 'MontL';
+}
+
+header{
+    background-image: url(../img/Background.png);
+    width: 1440px;
+    height: 700px;
+    background-size: cover;
+
+    .top{
+        
+        .logo{
+            font-family: "Mont";
+            font-size: 19px;
+            font-weight: 900;
+            color: #fefefe;
+            margin-top: 45px;
+            margin-left: 248px;
+            position: absolute;
+            letter-spacing: 0.9px;
+        }
+
+
+        .acc{
+            position: absolute;
+            margin-top: 40px;  
+            margin-left: 1016px;
+            display: flex;
+            width: 200px;
+            
+            .login{
+                font-family: "Mont";
+                color: #fefefe;
+                font-size: 13px;
+                margin-left: -20px;
+                margin-top: 10px;
+                position: absolute;
+                letter-spacing: 0.4px;
+            }
+
+            .signup{
+                display: flex;
+                font-size: 13.6px;
+                height: 36px;
+                width: 90px;
+                border-radius: 17px;
+                border: 1px #fefefe solid;
+                align-items: center;
+                justify-content: center;
+                font-family: "Mont";
+                color: #fefefe;
+                position: absolute;
+                text-decoration: none;
+                margin-left: 42px;
+            }
+        }
+
+            
+        
+    }
+
+    .centr {
+        
+        height: 400px;
+        width: 470px;
+        position: absolute;
+        margin-left: 542px;
+        margin-top: 225px;
+
+
+        .holiday {
+            display: block;
+            font-family: "MontB";
+            font-size: 50px;
+            color: white;
+            letter-spacing: 1.2px;
+        }
+
+        .holidaybot{
+            font-family: "MontB";
+            color: white;
+            font-size: 50px;
+            margin-left: -56px;
+            letter-spacing: 1.33px;
+            margin-top: 2px;
+        }
+        
+
+        .and{
+            color: #fefefe;
+            font-family: "MontL";
+            font-size: 23px;
+            font-weight: lighter;
+            margin-left: -21px;
+            margin-top: 26px;
+            letter-spacing: -1.0px;
+        }
+
+        .button-header {
+            display: flex;
+            background-color: #FF4E50;
+            border-radius: 31px;
+            width: 225px;
+            height: 40px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-family: 'MontB';
+            font-size: 14px;
+            margin-left: 67px;
+            margin-top: 33px;
+        }
+    }
+
+    
+}
+
+
+
+main{
+    width: 1440px;
+
+    .hiw{
+        font-family: 'MontB';
+        display: block;
+        width: 342px;
+        height: 32px;
+        margin: 0 auto;
+        font-size: 26px;
+        margin-top: 88px;
+    }
+
+    .steps {
+        height: 410px;
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 36px;
+    
+
+        .step1{
+            height: 400px;
+            width: 300px;
+            background-image: url(../img/Step\ 1\ image.png);
+            border-radius: 5px;
+            margin-right: 21px;
+
+
+            .texts1{
+
+
+                margin: 0 auto;
+                width: 260px;
+                height: 176px;
+                margin-top: 236px;
+                color: #fefefe;
+
+
+                .texth1{
+                    font-family: "MontB";
+                    font-size: 24px;
+                    margin-top: 21px;
+                    margin-left: 6px;
+                    line-height: 26px;
+
+                }
+
+
+                .redb1{
+                    display: flex;
+                    height: 20px;
+                    width: 70px;
+                    background-color: #FF4E50;
+                    font-family: "Mont";
+                    font-size: 10px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fefefe;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                    margin-top: -16px;
+                }
+
+
+                .sts1{
+                    font-family: "MontL";
+                    font-size: 14px;
+                    margin-top: 22px;
+                    margin-left: 4px;
+                    width: 244px;
+                    height: 57px;
+                    letter-spacing: -1px;
+                    line-height: 15px;
+                }
+
+            }
+            
+        }
+        
+        
+        .step2{
+            height: 400px;
+            width: 300px;
+            background-image: url(../img/Step\ 2\ image.png);
+            border-radius: 5px;
+            margin-right: 21px;
+
+
+
+            .texts2{
+                
+                margin: 0 auto;
+                width: 260px;
+                margin-top: 250px;
+                height: 176px;
+                color: white;
+
+
+                .texth2{
+                    font-family: "MontB";
+                    font-size: 24px;
+                    margin-top: 22px;
+                    margin-left: 5px;
+
+                }
+
+
+                .redb2{
+                    display: flex;
+                    height: 20px;
+                    width: 70px;
+                    background-color: #FF4E50;
+                    font-family: "Mont";
+                    font-size: 10px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fefefe;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                }
+
+
+                .sts2{
+                    font-family: "MontL";
+                    font-size: 14px;
+                    margin-top: 14px;
+                    margin-left: 4px;
+                    width: 244px;
+                    height: 57px;
+                    letter-spacing: -1px;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        .step3{
+            height: 400px;
+            width: 300px;
+            background-image: url(../img/Step\ 3\ image.png);
+            border-radius: 5px;
+            color: white;
+
+
+            .texts3{
+
+
+                .texth3{
+                    font-family: "MontB";
+                    font-size: 24px;
+                    margin-top: 22px;
+                    margin-left: 5px;
+
+                }
+
+                margin: 0 auto;
+                width: 260px;
+                height: 176px;
+                margin-top: 219px;
+
+
+                .redb3{
+                    display: flex;
+                    height: 20px;
+                    width: 70px;
+                    background-color: #FF4E50;
+                    font-family: "Mont";
+                    font-size: 10px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fefefe;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+    .partners{
+
+        height: 365px;
+        width: 945px;
+
+        margin-top: 79px;
+        margin: 0 auto;
+        margin-top: 79px;
+
+        .hpartners{
+            color: black;
+            font-family: 'MontB';
+            font-size: 26px;
+            margin-left: 229px;
+        }
+
+        .avatars{
+            display: flex;
+            margin-top: 35px;
+
+
+            .avblock1{
+                height: 205px;
+                width: 225px;
+            }
+            .avblock2{
+                height: 205px;
+                width: 225px;
+                margin-left:  17px;
+            }
+            .avblock3{
+                height: 225px;
+                width: 225px;
+                margin-left: 13px;
+            }
+            .avblock4{
+                height: 225px;
+                width: 225px;
+                margin-left: 15px;
+            }
+
+
+            .imgav{
+                height: 120px;
+                width: 120px;
+                margin: 0 auto;
+            }
+            .avaname1{
+                margin-top: 18px;
+                margin-left: 57px;
+                font-size: 14px;
+            }
+            .avaname2{
+                margin-top: 18px;
+                margin-left: 59px;
+                font-size: 14px;
+            }
+            .avaname3{
+                margin-top: 18px;
+                margin-left: 70px;
+                font-size: 14px;
+            }
+            .avaname4{
+                margin-top: 18px;
+                margin-left: 45px;
+                font-size: 14px;
+            }
+
+
+            .avatext{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: "RobL";
+                font-size: 14px;
+                margin-top: 23px;
+                color: #666;
+                line-height: 14px;
+            }
+
+            .avatext2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: "RobL";
+                font-size: 14px;
+                color: #666;
+                margin-top: 28px;
+                margin-left: 8px;
+                width: 221px;
+                line-height: 14px;
+            }
+            
+        }
+
+        .seem{
+            height: 40px;
+            width: 180px;
+            border: 2.5px solid #FF4E50;
+            border-radius: 23px;
+            margin: 0 auto;
+            margin-top: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'MontB';
+            font-size: 14px;
+            color: #FF4E50;
+            padding-left: 6px;
+        }
+        
+    }
+
+    
+    .ideas{
+
+
+
+        .ideahead{
+            font-family: 'MontB';
+            font-size: 26px;
+            margin: 0 auto;
+            width: 413px;
+            height: 32px;
+            margin-top: 91px;
+        }
+
+        .idimgs{
+            margin: 0 auto;
+            height: 970px;
+            width: 940px;
+            margin-top: 35px;
+
+
+            .idcont2{
+                display: flex;
+            }
+
+            .idcont1{
+                display: flex;
+            }
+
+            .idcont3{
+                display: flex;
+            }
+
+            .idimg1{
+                background-image: url(../img/Sport.png);     
+                width: 300px;
+                height: 310px;   
+            
+            }
+            .idimg2{
+                background-image: url(../img/Healath.png);  
+                width: 300px;
+                height: 310px;  
+            }
+            .idimg3{
+                background-image: url(../img/Extreme.png);
+                width: 300px;
+                height: 310px;  
+            }
+            .idimg4{
+                background-image: url(../img/Games.png);
+                width: 300px;
+                height: 310px;  
+            }
+            .idimg7{
+                background-image: url(../img/GamesCopy.png);
+                width: 300px;
+                height: 310px;  
+            }
+
+            .idimgbig5{
+                background-image: url(../img/Culture.png);
+                width: 620px;
+                height: 310px;
+            }
+
+            .idimgbig6{
+                background-image: url(../img/CultureCopy.png);
+                width: 620px;
+                height: 310px;
+            }
+
+
+
+            .idmarg{
+                margin-left: 16px;
+            }
+
+            .idcont2{
+                margin-top: 16px;
+            }
+
+            .idcont3{
+                margin-top: 16px;
+            }
+
+        }
+    }
+
+    .create{
+        
+
+        .crhead{
+            font-family: 'MontB';
+            font-size: 26px;
+            width: 358px;
+            height: 32px;
+            margin: 0 auto;
+            margin-top: 89px;
+        }
+
+        .crhead2{
+            color: #666;
+            font-family: "RobL";
+            font-size: 18px;
+            width: 277px;
+            height: 24px;
+            margin: 0 auto;
+            margin-top: 49px;
+        }
+
+        .search{
+            width: 482px;
+            height: 40px;
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+        }
+
+        form {
+            position: relative;
+            width: 299px;
+            
+            background: #ffffff;
+            border: 1px solid #D4D4D4;
+            border-radius: 5px;
+          }
+          input, button {
+            border: none;
+            outline: none;
+            background: transparent;
+          }
+          input {
+            width: 100%;
+            height: 40px;
+            padding-left: 15px;
+          }
+         
+          
+          
+        
+          .searchbutton{
+            width: 172.12px;
+            height: 40px;
+            background-color: #FF4E50;
+            border-radius: 50px;
+            margin-left: 9px;
+            margin-top: -1px;
+            font-family: 'MontB';
+            font-size: 14px;
+            color: white;
+            padding-left: 5px;
+          }
+    }
+        
+    
+    
+}
+
+
+.footer{
+    width: 1440px;
+    height: 260px;
+    border-top: 3px #FF4E50 solid;
+    margin-top: 98px;
+    
+    .company{
+        display: flex;
+        width: 943px;
+        height: 196px;
+        margin: 0 auto;
+        margin-top: 36px;
+
+        .dshf{
+            font-family: 'Mont';
+            color: #FF4E50;
+            font-size: 16px;
+            letter-spacing: 0.3px;
+        }
+
+        .companyul{
+            margin-left: 122px;
+            margin-top: 1px;
+            width: 116px;
+
+            .compulh{
+                font-family: 'MontB';
+                font-size: 14px;
+            }
+
+            .ulab{
+                font-family: "RobL";
+                font-size: 14px;
+                color: #D4D4D4;
+                list-style: none;
+                line-height: 26px;
+                margin-top: 12px;
+            }
+
+            
+        }
+
+        .partners{
+            font-family: "MontB";
+            font-size: 14px;
+            margin-left: 125px;
+            margin-top: 1px;
+        }
+
+        .designed{
+
+            margin-left: 289px;
+            margin-top: 8px;
+            width: 113px;
+
+            .topdes{
+                font-family: "MontB";
+                font-size: 10px;
+                color: #D4D4D4;
+                margin-left: 37px;
+                margin-top: -5px;
+                position: absolute;
+                width: 100px;
+
+            }
+
+
+            .desimg{
+                margin-top: 12px;
+            }
+
+            
+        }
+    }
+    
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px ){
+
+
+    .container{
+        margin: 0 auto;
+    }
+
+    .montb{
+        font-family: 'MontB';
+    }
+    
+    .monteb{
+        font-family: 'MontEB';
+    
+    }
+    
+    .montl{
+        font-family: 'MontL';
+    }
+    
+    header{
+        background-image: url(../img/Background.png);
+        width: 768px;
+        height: 700px;
+        background-size: cover;
+        background-position-x: -336px;
+    
+        .top{
+            
+            .logo{
+                font-family: "Mont";
+                font-size: 19px;
+                font-weight: 900;
+                color: #fefefe;
+                margin-top: 47px;
+                margin-left: 48px;
+                position: absolute;
+                letter-spacing: 0.9px;
+            }
+    
+    
+            .acc{
+                position: absolute;
+                margin-top: 40px;
+                margin-left: 586px;
+                display: flex;
+                
+                
+                .login{
+                    font-family: "Mont";
+                    color: #fefefe;
+                    font-size: 13px;
+                    margin-left: -20px;
+                    margin-top: 10px;
+                    position: absolute;
+                    letter-spacing: 0.4px;
+                }
+    
+                .signup{
+                    display: flex;
+                    font-size: 13.6px;
+                    height: 36px;
+                    width: 90px;
+                    border-radius: 17px;
+                    border: 1px #fefefe solid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "Mont";
+                    color: #fefefe;
+                    position: absolute;
+                    text-decoration: none;
+                    margin-left: 42px;
+                }
+            }
+    
+                
+            
+        }
+    
+        .centr {
+            
+            height: 400px;
+            width: 470px;
+            position: absolute;
+            margin-left: 206px;
+            margin-top: 225px;
+
+    
+    
+            .holiday {
+                display: block;
+                font-family: "MontB";
+                font-size: 50px;
+                color: white;
+                letter-spacing: 1.2px;
+            }
+    
+            .holidaybot{
+                font-family: "MontB";
+                color: white;
+                font-size: 50px;
+                margin-left: -56px;
+                letter-spacing: 1.33px;
+                margin-top: 2px;
+            }
+            
+    
+            .and{
+                color: #fefefe;
+                font-family: "MontL";
+                font-size: 23px;
+                font-weight: lighter;
+                margin-left: -21px;
+                margin-top: 26px;
+                letter-spacing: -1.0px;
+            }
+    
+            .button-header {
+                display: flex;
+                background-color: #FF4E50;
+                border-radius: 31px;
+                width: 225px;
+                height: 40px;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                font-family: 'MontB';
+                font-size: 14px;
+                margin-left: 67px;
+                margin-top: 33px;
+            }
+        }
+    
+        
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    main{
+        width: 768px;
+    
+        .hiw{
+            font-family: "MontB";
+            display: block;
+            width: 289px;
+            height: 32px;
+            margin: 0 auto;
+            font-size: 22px;
+            margin-top: 93px;
+        }
+    
+        .steps {
+            height: 410px;
+            width: 768px;
+            margin: 0 auto;
+            display: flex;
+            margin-top: 31px;
+        
+    
+            .step1{
+                height: 400px;
+                width: 236px;
+                background-image: url(../img/Step\ 1\ image.png);
+                border-radius: 5px;
+                margin-right: 20px;
+                margin-left: 10px;
+    
+    
+                .texts1{
+    
+    
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 176px;
+                    margin-top: 236px;
+                    color: #fefefe;
+    
+    
+                    .texth1{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: 47px;
+                        margin-left: 20px;
+                        line-height: 14px;
+    
+                    }
+    
+    
+                    .redb1{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 20px;
+                        margin-top: -31px;
+                    }
+    
+    
+                    .sts1{
+                        font-family: "MontL";
+                        font-size: 14px;
+                        margin-top: 28px;
+                        margin-left: 21px;
+                        width: 194px;
+                        height: 57px;
+                        line-height: 14px;
+                    }
+    
+                }
+                
+            }
+            
+            
+            .step2{
+                height: 400px;
+                width: 236px;
+                background-image: url(../img/Step\ 2\ image.png);
+                border-radius: 5px;
+                margin-right: 20px;
+    
+    
+    
+                .texts2{
+                    
+                    margin: 0 auto;
+                    width: 260px;
+                    margin-top: 250px;
+                    height: 176px;
+                    color: white;
+    
+    
+                    .texth2{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: 15px;
+                        margin-left: 20px;
+                        width: 143px;
+                        line-height: 14px;
+    
+                    }
+    
+    
+                    .redb2{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 21px;
+                        margin-top: 255px;
+                    }
+    
+    
+                    .sts2{
+                        font-family: "MontL";
+                        font-size: 14px;
+                        margin-top: 23px;
+                        margin-left: 19px;
+                        width: 244px;
+                        height: 57px;
+                        /* letter-spacing: 0px; */
+                        line-height: 14px;
+                        width: 201px;
+                    }
+                }
+            }
+    
+            .step3{
+                height: 400px;
+                width: 236px;
+                background-image: url(../img/Step\ 3\ image.png);
+                border-radius: 5px;
+                color: white;
+    
+    
+                .texts3{
+    
+    
+                    .texth3{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: 45px;
+                        margin-left: 20px;
+                        line-height: 14px;
+    
+                    }
+    
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 176px;
+                    margin-top: 219px;
+    
+    
+                    .redb3{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 20px;
+                        margin-top: -14px;
+                    }
+
+
+                    .sts3{
+                        font-family: "MontL";
+                        font-size: 14px;
+                        margin-top: 30px;
+                        margin-left: 19px;
+                        width: 244px;
+                        height: 57px;
+                        letter-spacing: -0.9px;
+                        line-height: 14px;
+                        width: 201px;
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    
+    
+        .partners{
+    
+            height: 365px;
+            width: 768px;
+            margin-top: 79px;
+            margin: 0 auto;
+            margin-top: 83px;
+    
+            .hpartners{
+                color: black;
+                font-family: "MontB";
+                font-size: 22px;
+                margin-left: 177px;
+            }
+    
+            .avatars{
+                
+                display: block;
+                margin-top: 35px;
+    
+    
+                .avblock1{
+                    height: 205px;
+                    width: 236px;
+                    margin-left: 138px;
+                    margin-top: 35px;
+                }
+                .avblock2{
+                    height: 205px;
+                    width: 225px;
+                    margin-left: 143px;
+                    margin-top: 55px;
+                    position: absolute;
+                }
+                .avblock3{
+                    height: 225px;
+                    width: 225px;
+                    margin-left: 399px;
+                    position: absolute;
+                    margin-top: -204px;
+                }
+                .avblock4{
+                    height: 225px;
+                    width: 225px;
+                    margin-left: 399px;
+                    margin-top: 55px;
+                }
+    
+    
+                .imgav{
+                    height: 120px;
+                    width: 120px;
+                    margin: 0 auto;
+                }
+                .avaname1{
+                    margin-top: 19px;
+                    margin-left: 62px;
+                    font-size: 14px;
+                }
+                .avaname2{
+                    margin-top: 18px;
+                    margin-left: 60px;
+                    font-size: 14px;
+                }
+                .avaname3{
+                    margin-top: 18px;
+                    margin-left: 70px;
+                    font-size: 14px;
+                }
+                .avaname4{
+                    margin-top: 18px;
+                    margin-left: 45px;
+                    font-size: 14px;
+                }
+    
+    
+                .avatext{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: "RobL";
+                    font-size: 14px;
+                    margin-top: 23px;
+                    color: #666;
+                    line-height: 14px;
+                }
+    
+                .avatext2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: "RobL";
+                    font-size: 14px;
+                    color: #666;
+                    margin-top: 22px;
+                    margin-left: -6px;
+                    width: 238px;
+                    line-height: 14px;
+                }
+                
+            }
+    
+            .seem{
+                height: 40px;
+                width: 180px;
+                border: 2.5px solid #FF4E50;
+                border-radius: 23px;
+                margin: 0 auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "MontB";
+                font-size: 14px;
+                color: #FF4E50;
+                padding-left: 6px;
+                margin-left: 294px;
+            }
+            
+        }
+    
+        
+        .ideas{
+    
+            margin-top: 330px;
+    
+            .ideahead{
+                font-family: "MontB";
+                font-size: 22px;
+                margin: 0 auto;
+                width: 350px;
+                height: 32px;
+                margin-top: 336px;
+            }
+    
+            .idimgs{
+                margin: 0 auto;
+                height: 970px;
+                width: 768px;
+                margin-top: 35px;
+                
+
+                .idcont2{
+                    display: flex;
+                    margin-top: 324px;
+                }
+    
+                .idcont1{
+                    display: flex;
+                    margin-top: 0px;
+                }
+    
+                .idcont3{
+                    display: flex;
+                    margin-top: 330px;
+                }
+    
+                .idimg1{
+                    background-image: url(../img/Sporttab.png);
+                        width: 236px;
+                        height: 310px;
+                        margin-left: 10px;
+                        border-radius: 5px;
+                        position: absolute;
+                        margin-top: -5px;
+                
+                }
+                .idimg2{
+                    background-image: url(../img/Healathtab.png);
+                    width: 236px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 266px;
+                    margin-top: -5px;
+                }
+                .idimg3{
+                    background-image: url(../img/Extremetab.png);
+                    width: 236px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 522px;
+                    margin-top: -6px;
+                }
+                .idimg4{
+                    background-image: url(../img/Gamestab.png);
+                    width: 236px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 10px;
+                }
+                .idimg7{
+                    
+                    background-image: url(../img/GamesCopytab.png);
+                    width: 236px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 522px;
+                }
+    
+                .idimgbig5{
+                    background-image: url(../img/Culture.png);
+                    width: 492px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 267px;
+                    border-radius: 4px;
+                    background-position-x: -66px;
+                }
+    
+                .idimgbig6{
+                    background-image: url(../img/CultureCopyTab.png);
+                    width: 492px;
+                    height: 310px;
+                    position: absolute;
+                    margin-left: 10px;
+                    border-radius: 4px;
+                }
+
+
+                .idmarg{
+                    // margin-left: 0;
+                }
+    
+                
+    
+            }
+        }
+    
+        .create{
+            
+    
+            .crhead{
+                font-family: "MontB";
+                    font-size: 22px;
+                    width: 302px;
+                    height: 32px;
+                    margin: 0 auto;
+                    margin-top: 89px;
+            }
+    
+            .crhead2{
+                color: #666;
+                font-family: "RobL";
+                font-size: 18px;
+                width: 276px;
+                height: 24px;
+                margin: 0 auto;
+                margin-top: 45px;
+            }
+    
+            .search{
+                width: 482px;
+                height: 40px;
+                margin: 0 auto;
+                margin-top: 20px;
+                display: flex;
+            }
+    
+            form {
+                position: relative;
+                width: 299px;
+                
+                background: #ffffff;
+                border: 1px solid #D4D4D4;
+                border-radius: 5px;
+              }
+              input, button {
+                border: none;
+                outline: none;
+                background: transparent;
+              }
+              input {
+                width: 100%;
+                height: 40px;
+                padding-left: 15px;
+              }
+             
+              
+              
+            
+              .searchbutton{
+                width: 172.12px;
+                height: 40px;
+                background-color: #FF4E50;
+                border-radius: 50px;
+                margin-left: 9px;
+                margin-top: -1px;
+                font-family: 'MontB';
+                font-size: 14px;
+                color: white;
+                padding-left: 5px;
+              }
+        }
+            
+        
+        
+    }
+    
+    
+    .footer{
+        width: 768px;
+        height: 260px;
+        border-top: 3px #FF4E50 solid;
+        margin-top: 98px;
+
+        .company{
+            display: flex;
+            width: 768px;
+            height: 196px;
+            margin: 0 auto;
+            margin-top: 36px;
+    
+            .dshf{
+                font-family: "Mont";
+                color: #FF4E50;
+                font-size: 16px;
+                letter-spacing: -0.1px;
+                margin-left: 39px;
+            }
+    
+            .companyul{
+                margin-left: 122px;
+                margin-top: 1px;
+                width: 116px;
+    
+                .compulh{
+                    font-family: "MontB";
+                    font-size: 14px;
+                    margin-left: -12px;
+                }
+    
+                .ulab{
+                    font-family: "RobL";
+                    font-size: 14px;
+                    color: #D4D4D4;
+                    list-style: none;
+                    line-height: 26px;
+                    margin-top: 12px;
+                    width: 199px;
+                    margin-left: -12px;
+                    position: absolute;
+                }
+    
+                
+            }
+    
+            .partners{
+                font-family: "MontB";
+                font-size: 14px;
+                margin-left: 41px;
+                margin-top: 1px;
+            }
+    
+            .designed{
+    
+                margin-left: 120px;
+                margin-top: 8px;
+                width: 113px;
+    
+                .topdes{
+                    font-family: "MontB";
+                    font-size: 10px;
+                    color: #D4D4D4;
+                    margin-left: 29px;
+                    margin-top: -6px;
+                    position: absolute;
+                    width: 100px;
+                    letter-spacing: 1px;
+    
+                }
+    
+    
+                .desimg{
+                    margin-top: 12px;
+                }
+    
+                
+            }
+        }
+        
+    
+    
+    
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 320px ){
+
+
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        margin: 0 auto;
+    }
+
+    .montb{
+        font-family: 'MontB';
+    }
+    
+    .monteb{
+        font-family: 'MontEB';
+    
+    }
+    
+    .montl{
+        font-family: 'MontL';
+    }
+    
+    header{
+        background-image: url(../img/Backgroundmob.png);
+        width: 320px;
+        height: 540px;
+        background-size: cover;
+        background-position-x: -321px;
+    
+        .top{
+            
+            .logo{
+                font-family: "Mont";
+                font-size: 19px;
+                font-weight: 900;
+                color: #fefefe;
+                margin-top: 153px;
+                margin-left: 87px;
+                position: absolute;
+                letter-spacing: 0.9px;
+            }
+    
+    
+            .acc{
+                position: absolute;
+                margin-top: 20px;
+                margin-left: 105px;
+                display: flex;
+                
+                
+                .login{
+                    font-family: "Mont";
+                    color: #fefefe;
+                    font-size: 13px;
+                    margin-left: -20px;
+                    margin-top: 10px;
+                    position: absolute;
+                    letter-spacing: 0.4px;
+                }
+    
+                .signup{
+                    display: flex;
+                    font-size: 13.6px;
+                    height: 36px;
+                    width: 90px;
+                    border-radius: 17px;
+                    border: 1px #fefefe solid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "Mont";
+                    color: #fefefe;
+                    position: absolute;
+                    text-decoration: none;
+                    margin-left: 42px;
+                }
+            }
+    
+                
+            
+        }
+    
+        .centr {
+            
+            height: 74px;
+            width: 262px;
+            position: absolute;
+            margin-left: 56px;
+            margin-top: 203px;
+
+    
+    
+            .holiday {
+                display: block;
+                font-family: "MontB";
+                font-size: 30px;
+                color: white;
+                letter-spacing: 0.2px;
+            }
+    
+            .holidaybot{
+                font-family: "MontB";
+                color: white;
+                font-size: 30px;
+                margin-left: -31px;
+                letter-spacing: 0.1px;
+                margin-top: 0px;
+            }
+            
+    
+            .and{
+                color: #fefefe;
+                font-family: "RobL";
+                font-size: 18px;
+                font-weight: lighter;
+                margin-left: -15px;
+                margin-top: 8px;
+                letter-spacing: 0px;
+                width: 239px;
+                text-align: center;
+            }
+    
+            .button-header {
+                display: flex;
+                background-color: #FF4E50;
+                border-radius: 31px;
+                width: 278px;
+                height: 40px;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                font-family: "MontB";
+                font-size: 14px;
+                margin-left: -35px;
+                margin-top: 18px;
+            }
+        }
+    
+        
+    }
+    
+    
+    
+    main{
+        width: 320px;
+    
+        .hiw{
+            font-family: "MontB";
+            display: block;
+            width: 289px;
+            height: 32px;
+            margin: 0 auto;
+            font-size: 22px;
+            margin-top: 34px;
+        }
+    
+        .steps {
+            height: 781px;
+            width: 320px;
+            margin: 0 auto;
+             display: block; 
+            margin-top: 31px;
+        
+    
+            .step1{
+                height: 240px;
+                width: 300px;
+                background-image: url(../img/Step\ 1\ image\ mobile.png);
+                border-radius: 5px;
+                margin-right: 20px;
+                margin-left: 10px;
+    
+    
+                .texts1{
+    
+    
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 176px;
+                    margin-top: -20px;
+                    color: #fefefe;
+    
+    
+                    .texth1{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: 129px;
+                        margin-left: 0px;
+                        line-height: 14px;
+                        position: absolute;
+    
+                    }
+    
+    
+                    .redb1{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 1px;
+                        position: absolute;
+                        margin-top: 63px;
+                    }
+    
+    
+                    .sts1{
+                        font-family: "RobL";
+                        font-size: 14px;
+                        margin-top: 183px;
+                        margin-left: -1px;
+                        width: 254px;
+                        height: 57px;
+                        line-height: 14px;
+                        letter-spacing: 0.1px;
+                        position: absolute;
+                    }
+    
+                }
+                
+            }
+            
+            
+            .step2{
+                height: 240px;
+                width: 300px;
+                background-image: url(../img/Step\ 1\ image\ mob.png);
+                border-radius: 5px;
+                margin-right: 0px;
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 10px;
+    
+    
+    
+                .texts2{
+                    
+                    margin: 0 auto;
+                    width: 260px;
+                    margin-top: 250px;
+                    height: 176px;
+                    color: white;
+    
+    
+                    .texth2{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: -106px;
+                        margin-left: 0px;
+                        width: 218px;
+                        position: absolute;
+                        line-height: 14px;
+    
+                    }
+    
+    
+                    .redb2{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 0px;
+                        margin-top: -156px;
+                        position: absolute;
+                    }
+    
+    
+                    .sts2{
+                        font-family: "RobL";
+                        font-size: 14px;
+                        margin-top: -69px;
+                        margin-left: 0px;
+                        width: 198px;
+                        height: 57px;
+                        letter-spacing: 0px;
+                        line-height: 14px;
+                        width: 253px;
+                        position: absolute;
+                    }
+                }
+            }
+    
+            .step3{
+                height: 240px;
+                width: 300px;
+                background-image: url(../img/Step\ 3\ image\ mob.png);
+                border-radius: 5px;
+                color: white;
+                position: absolute;
+                margin-top: 258px;
+                margin-left: 10px;
+    
+    
+                .texts3{
+    
+    
+                    .texth3{
+                        font-family: "MontB";
+                        font-size: 24px;
+                        margin-top: 45px;
+                        margin-left: 1px;
+                        line-height: 14px;
+    
+                    }
+    
+                    margin: 0 auto;
+                    width: 260px;
+                    height: 176px;
+                    margin-top: 79px;
+    
+    
+                    .redb3{
+                        display: flex;
+                        height: 20px;
+                        width: 70px;
+                        background-color: #FF4E50;
+                        font-family: "Mont";
+                        font-size: 10px;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fefefe;
+                        border-radius: 10px;
+                        margin-left: 0px;
+                        margin-top: -14px;
+                    }
+
+
+                    .sts3{
+                        font-family: "RobL";
+                        font-size: 14px;
+                        margin-top: 25px;
+                        margin-left: 1px;
+                        width: 244px;
+                        height: 57px;
+                        letter-spacing: 0px;
+                        line-height: 14px;
+                        width: 244px;
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    
+    
+        .partners{
+    
+            height: 365px;
+            width: 320px;
+            margin-top: 79px;
+            margin: 0 auto;
+            margin-top: 83px;
+    
+            .hpartners{
+                color: black;
+                font-family: "MontB";
+                font-size: 22px;
+                margin-left: -1px;
+                text-align: center;
+                margin-top: -90px;
+            }
+    
+            .avatars{
+                
+                display: block;
+                margin-top: 35px;
+    
+    
+                .avblock1{
+                    height: 205px;
+                    width: 236px;
+                    margin-left: 43px;
+                    margin-top: -21px;
+                }
+                .avblock2{
+                    height: 205px;
+                    width: 225px;
+                    margin-left: 47px;
+                    margin-top: 257px;
+                    position: absolute;
+                }
+                .avblock3{
+                    height: 225px;
+                    width: 225px;
+                    margin-left: 47px;
+                    position: absolute;
+                    margin-top: 16px;
+                }
+                .avblock4{
+                    height: 225px;
+                    width: 225px;
+                    margin-left: 47px;
+                    margin-top: 478px;
+                }
+    
+    
+                .imgav{
+                    height: 120px;
+                    width: 120px;
+                    margin: 0 auto;
+                }
+                .avaname1{
+                    margin-top: 19px;
+                    margin-left: 62px;
+                    font-size: 14px;
+                }
+                .avaname2{
+                    margin-top: 18px;
+                    margin-left: 60px;
+                    font-size: 14px;
+                }
+                .avaname3{
+                    margin-top: 18px;
+                    margin-left: 70px;
+                    font-size: 14px;
+                }
+                .avaname4{
+                    margin-top: 18px;
+                    margin-left: 45px;
+                    font-size: 14px;
+                }
+    
+    
+                .avatext{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: "RobL";
+                    font-size: 14px;
+                    color: #666;
+                    margin-top: 27px;
+                    margin-left: -6px;
+                    width: 238px;
+                    line-height: 14px;
+                }
+    
+                .avatext2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: "RobL";
+                    font-size: 14px;
+                    color: #666;
+                    margin-top: 22px;
+                    margin-left: -6px;
+                    width: 238px;
+                    line-height: 14px;
+                }
+                
+            }
+    
+            .seem{
+                height: 40px;
+                width: 279px;
+                border: 2.5px solid #FF4E50;
+                border-radius: 23px;
+                margin: 0 auto;
+                margin-top: 17px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "MontB";
+                font-size: 14px;
+                color: #FF4E50;
+                padding-left: 6px;
+                margin-left: 21px;
+            }
+            
+        }
+    
+        
+        .ideas{
+    
+            margin-top: 811px;
+    
+            .ideahead{
+                font-family: "MontB";
+                font-size: 22px;
+                margin: 0 auto;
+                width: 259px;
+                height: 32px;
+                margin-top: -109px;
+                text-align: center;
+            }
+    
+            .idimgs{
+                margin: 0 auto;
+                height: 970px;
+                width: 768px;
+                margin-top: 60px;
+                
+
+                .idcont2{
+                    display: flex;
+                    margin-top: 324px;
+                }
+    
+                .idcont1{
+                    display: flex;
+                    margin-top: 0px;
+                }
+    
+                .idcont3{
+                    display: flex;
+                    margin-top: 330px;
+                }
+    
+                .idimg1{
+                    background-image: url(../img/Sportmobile.png);
+                    width: 300px;
+                    height: 120px;
+                    margin-left: 10px;
+                    border-radius: 5px;
+                    position: absolute;
+                    margin-top: -5px;
+                
+                }
+                .idimg2{
+                    background-image: url(../img/Healathmobile.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 124px;
+                }
+                .idimg3{
+                    background-image: url(../img/Extrememob.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-left: 9px;
+                    margin-top: 253px;
+                }
+                .idimg4{
+                    background-image: url(../img/Gamesmob.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 60px;
+                }
+                .idimg7{
+                    
+                    background-image: url(../img/GamesCopymob.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-top: 119px;
+                    margin-left: 10px;
+                }
+    
+                .idimgbig5{
+                    background-image: url(../img/Culturemob.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-left: 10px;
+                    border-radius: 4px;
+                    background-position-x: 0;
+                    margin-top: 191px;
+                }
+    
+                .idimgbig6{
+                    background-image: url(../img/CultureCopymob.png);
+                    width: 300px;
+                    height: 120px;
+                    position: absolute;
+                    margin-left: 10px;
+                    border-radius: 4px;
+                    margin-top: -10px;
+                }
+
+
+                .idmarg{
+                    // margin-left: 0;
+                }
+    
+                
+    
+            }
+        }
+    
+        .create{
+            
+    
+            .crhead{
+                font-family: "MontB";
+                font-size: 22px;
+                width: 216px;
+                height: 32px;
+                margin: 0 auto;
+                margin-top: -41px;
+                text-align: center;
+            }
+    
+            .crhead2{
+                color: #666;
+                    font-family: "RobL";
+                    font-size: 18px;
+                    width: 276px;
+                    height: 24px;
+                    margin: 0 auto;
+                    margin-top: 38px;
+                    margin-left: 23px;
+            }
+    
+            .search{
+                width: 482px;
+                height: 40px;
+                margin: 0 auto;
+                margin-top: 7px;
+                display: block;
+                margin-left: 20px;
+            }
+    
+            form {
+                position: relative;
+                width: 281px;
+                background: #ffffff;
+                border: 2px solid #D4D4D4;
+                border-radius: 5px;
+              }
+              input, button {
+                border: none;
+                outline: none;
+                background: transparent;
+              }
+              input {
+                width: 100%;
+                height: 40px;
+                padding-left: 15px;
+              }
+             
+              
+              
+            
+              .searchbutton{
+                width: 279.12px;
+                height: 40px;
+                background-color: #FF4E50;
+                border-radius: 50px;
+                margin-left: 0px;
+                margin-top: -1px;
+                font-family: "MontB";
+                font-size: 14px;
+                color: white;
+                padding-left: 5px;
+                margin-top: 7px;
+              }
+        }
+            
+        
+        
+    }
+    
+    
+    .footer{
+        width: 320px;
+        height: 260px;
+        border-top: 3px #FF4E50 solid;
+        margin-top: 91px;
+
+
+        .company{
+            display: flex;
+            width: 768px;
+            height: 196px;
+            margin: 0 auto;
+            margin-top: 91px;
+    
+            .dshf{
+                font-family: "Mont";
+                color: #FF4E50;
+                font-size: 16px;
+                letter-spacing: -0.1px;
+                margin-left: 102px;
+                display: flex;
+                margin-top: -72px;
+            }
+    
+            .companyul{
+                margin-left: 122px;
+                margin-top: 1px;
+                width: 116px;
+    
+                .compulh{
+                    font-family: "MontB";
+                    font-size: 14px;
+                    margin-left: -217px;
+                    margin-top: -40px;
+                }
+    
+                .ulab{
+                    font-family: "RobL";
+                    font-size: 14px;
+                    color: #D4D4D4;
+                    list-style: none;
+                    line-height: 26px;
+                    margin-top: 12px;
+                    width: 199px;
+                    margin-left: -276px;
+                    position: absolute;
+                }
+                .absolut1{
+                    position: absolute;
+                    margin-top: -10px;
+                }
+                .absolut2{
+                    position: absolute;
+                    margin-left: 50px;
+                    margin-top: -10px;
+                }
+                .absolut3{
+                    position: absolute;
+                    margin-top: -10px;
+                    margin-left: 112px;
+                }
+                .absolut4{
+                    position: absolute;
+                    margin-top: -10px;
+                    margin-left: 160px;
+                }
+                .absolut5{
+                    position: absolute;
+                    margin-top: 15px;
+                    margin-left: 16px;
+                }
+                .absolut6{
+                    position: absolute;
+                        margin-left: 142px;
+                        margin-top: 15px;
+                }
+    
+                
+            }
+    
+            .partners{
+                font-family: "MontB";
+                font-size: 14px;
+                margin-left: 128px;
+                margin-top: 37px;
+                position: absolute;
+            }
+    
+            .designed{
+    
+                margin-left: -352px;
+                margin-top: 75px;
+                width: 113px;
+    
+                .topdes{
+                    font-family: "MontB";
+                    font-size: 10px;
+                    color: #D4D4D4;
+                    margin-left: 14px;
+                    margin-top: -6px;
+                    position: absolute;
+                    width: 100px;
+                    letter-spacing: 1px;
+    
+                }
+    
+    
+                .desimg{
+                    margin-top: 12px;
+                }
+    
+                
+            }
+        }
+        
+    
+    
+    
+    }
+
+    
+}
